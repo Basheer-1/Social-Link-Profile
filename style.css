@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Inter-VariableFont;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    font-family: Inter-VariableFont;
+}
+
+body,html {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #141414;
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: #1F1F1F;
+    color: white;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 100px;
+}
+
+#address {
+    color: #C4F82A;
+    font-weight: bold;
+}
+
+button {
+    margin: 5px 15px;
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: #C4F82A;
+    color: black;
+}
